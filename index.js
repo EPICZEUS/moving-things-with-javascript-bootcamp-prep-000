@@ -19,6 +19,6 @@ document.on('keydown', e => {
   }
   
   if (e.which === 39) {
-    moveDodgerRight();
+    moveDodgerRight(dodger);
   }
 });
