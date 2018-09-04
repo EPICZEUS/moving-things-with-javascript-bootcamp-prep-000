@@ -8,7 +8,7 @@ function moveDodgerLeft(dodger) {
   }
 }
 
-function moveDodgerRight() {
+function moveDodgerRight(dodger) {
   
 }
 
