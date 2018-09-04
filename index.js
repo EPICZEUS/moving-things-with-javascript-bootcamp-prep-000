@@ -15,7 +15,7 @@ function moveDodgerRight() {
 document.on('keydown', e => {
   var dodger = document.getElementById('dodger')
   if (e.which === 37) {
-    moveDodgerLeft()
+    moveDodgerLeft(dodger)
   }
   
   if (e.which === 39) {
