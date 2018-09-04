@@ -17,7 +17,7 @@ function moveDodgerRight(dodger) {
   }
 }
 
-document.on('keydown', e => {
+document.addEventListener('keydown', e => {
   var dodger = document.getElementById('dodger')
   if (e.which === 37) {
     moveDodgerLeft(dodger)
