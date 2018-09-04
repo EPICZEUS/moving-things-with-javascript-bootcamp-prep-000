@@ -8,4 +8,6 @@ function moveDodgerLeft() {
   }
 }
 
-document.ready
+document.on('keydown', e => {
+  
+});
