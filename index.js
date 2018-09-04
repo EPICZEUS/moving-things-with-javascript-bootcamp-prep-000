@@ -9,5 +9,7 @@ function moveDodgerLeft() {
 }
 
 document.on('keydown', e => {
-  
+  if (e.which === 37) {
+    moveDodgerLeft()
+  }
 });
